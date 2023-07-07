@@ -1,0 +1,4 @@
+# publication-Energy-stable-and-conservative-dynamical-low-rank-approximation-for-the-Su-Olson-problem
+This repository can be used to reproduce all numerical experiments of the paper "Energy stable and conservative dynamical low-rank approximation for the Su-Olson problem" by Baumann, Einkemmer, Klingenberg, and Kusch.
+
+To run the code, download and install the Julia programming environment (https://julialang.org/downloads/). Open the Julia REPL (by typing julia into the command line). Press the ] key to open the package manager and type activate . to download and install all required packages. After that, type include("codePN1D/main.jl") or include("codePN2D/main.jl") to run all numerical experiments provided in the subfolder. After running the code for a specific subfolder restart Julia to change the folder.
